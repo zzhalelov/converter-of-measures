@@ -28,10 +28,11 @@ public class TemperatureConverter {
 
     public void toCelsius() {
         double result = (((double) 5 / 9) * (fahrenheit - 32));
-        System.out.println(result);
+        System.out.println(result + " градусов по Цельсию");
     }
-    public void toFahrenheit(){
-        double result = (((double) 9 /5)*celsius)+32;
-        System.out.println(result);
+
+    public void toFahrenheit() {
+        double result = (((double) 9 / 5) * celsius) + 32;
+        System.out.println(result + " градусов по Цельсию");
     }
 }
